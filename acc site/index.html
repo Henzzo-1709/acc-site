@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Recuperação Tributária para Prefeituras | Antonio Carlos Castro Sociedade de Advogados</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --preto:#000;
+  --cinza:#333;
+  --claro:#f4f4f4;
+  --dourado:#c9a24d;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:"Segoe UI","Arial Narrow",Arial,Helvetica,sans-serif;
+  background:var(--claro);
+  color:#111;
+  font-weight:600;
+  letter-spacing:.5px;
+  line-height:2;
+}
+
+/* MENU */
+.menu-btn{
+  position:fixed;
+  top:22px;
+  right:28px;
+  font-size:38px;
+  color:#fff;
+  cursor:pointer;
+  z-index:2000;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  right:-340px;
+  width:340px;
+  height:100%;
+  background:#000;
+  padding:110px 30px;
+  transition:.4s;
+  z-index:1500;
+}
+
+nav a{
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  padding:20px 0;
+  border-bottom:1px solid #333;
+  font-size:18px;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+nav a:hover{color:var(--dourado)}
+
+/* HEADER */
+header{
+  background:#000;
+  color:#fff;
+  padding:120px 25px;
+  text-align:center;
+}
+
+header h1{
+  font-size:52px;
+  font-weight:900;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:25px;
+}
+
+header p{
+  font-size:23px;
+  max-width:1100px;
+  margin:auto;
+  color:#ddd;
+}
+
+/* SECTIONS */
+section{
+  max-width:1250px;
+  margin:100px auto;
+  padding:0 30px;
+}
+
+h2{
+  font-size:44px;
+  font-weight:900;
+  margin-bottom:40px;
+  text-transform:uppercase;
+  border-left:7px solid var(--dourado);
+  padding-left:18px;
+}
+
+p{
+  font-size:22px;
+  text-align:justify;
+  margin-bottom:34px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+  gap:40px;
+}
+
+.card{
+  background:#000;
+  color:#fff;
+  padding:45px;
+  border-radius:14px;
+}
+
+.card h3{
+  font-size:26px;
+  color:var(--dourado);
+  margin-bottom:18px;
+  text-transform:uppercase;
+}
+
+.card p{
+  font-size:21px;
+  color:#f1f1f1;
+}
+
+/* LISTA */
+#creditos-recuperar{
+  background:#fff;
+  padding:60px;
+  border-radius:14px;
+}
+
+.lista-creditos{
+  columns:2;
+  font-size:22px;
+  font-weight:800;
+}
+
+.lista-creditos li{margin-bottom:14px}
+
+/* FAQ */
+.faq{
+  background:#fff;
+  padding:60px;
+  border-radius:14px;
+}
+
+.faq-item{
+  margin-bottom:35px;
+}
+
+.faq-item h3{
+  font-size:24px;
+  color:#000;
+  font-weight:900;
+  margin-bottom:10px;
+}
+
+.faq-item p{
+  font-size:21px;
+}
+
+/* CTA */
+.cta{
+  background:#000;
+  color:#fff;
+  padding:120px 30px;
+  text-align:center;
+}
+
+.cta h2{
+  color:var(--dourado);
+  font-size:48px;
+}
+
+.cta p{
+  font-size:25px;
+  color:#eee;
+  max-width:1000px;
+  margin:auto;
+}
+
+/* FOOTER */
+footer{
+  background:#000;
+  color:#bbb;
+  text-align:center;
+  padding:35px;
+  font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<nav id="menu">
+  <a href="#servico">O Serviço</a>
+  <a href="#como-funciona">Como Funciona</a>
+  <a href="#creditos-recuperar">O Que Recuperamos</a>
+  <a href="#faq">Perguntas Frequentes</a>
+  <a href="#diferenciais">Por Que Contratar</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<header>
+  <h1>Recuperação Tributária para Prefeituras</h1>
+  <p>
+    Serviço especializado prestado pela <strong>Antonio Carlos Castro Sociedade de Advogados</strong>,
+    voltado à identificação e recuperação de receitas municipais,
+    com segurança jurídica, metodologia própria e atuação integralmente administrativa.
+  </p>
+</header>
+
+<section id="servico">
+  <h2>O Serviço</h2>
+  <p>
+    O serviço de <strong>Recuperação Tributária para Prefeituras</strong>, conduzido pela
+    <strong>Antonio Carlos Castro Sociedade de Advogados</strong>, tem como finalidade
+    ampliar a arrecadação municipal por meio da identificação técnica de tributos
+    não recolhidos ou recolhidos a menor por instituições que atuam no território do Município.
+  </p>
+  <p>
+    A atuação é estratégica, preventiva e juridicamente fundamentada,
+    permitindo ao ente municipal recuperar valores referentes aos últimos 60 meses,
+    respeitando rigorosamente o prazo prescricional e os princípios da legalidade,
+    eficiência e responsabilidade fiscal.
+  </p>
+</section>
+
+<section id="como-funciona">
+  <h2>Como Funciona a Atuação do Escritório</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Diagnóstico Tributário</h3>
+      <p>
+        Realizamos análise aprofundada da legislação municipal, cruzamento de dados fiscais
+        e estudo das atividades econômicas exercidas no Município,
+        identificando oportunidades legítimas de recuperação tributária.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Procedimento Administrativo</h3>
+      <p>
+        A recuperação ocorre exclusivamente pela via administrativa,
+        com instauração de processos fiscais devidamente fundamentados,
+        garantindo segurança jurídica e transparência em todas as etapas.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Resultado Financeiro</h3>
+      <p>
+        O acompanhamento é realizado até o efetivo ingresso dos valores nos cofres municipais,
+        proporcionando incremento real de arrecadação e fortalecimento da capacidade financeira do Município.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="creditos-recuperar">
+  <h2>O Que o Escritório Pode Recuperar</h2>
+  <ul class="lista-creditos">
+    <li>ISSQN de Instituições Financeiras</li>
+    <li>ISSQN de Cartórios e Serviços Notariais</li>
+    <li>ISSQN de Empreiteiras e Obras</li>
+    <li>ISSQN de Clínicas, Laboratórios e Hospitais</li>
+    <li>ISSQN de Hotéis e Serviços de Hospedagem</li>
+    <li>ISSQN de Concessionárias de Energia</li>
+    <li>ISSQN de Concessionárias de Água e Esgoto</li>
+    <li>Repasse a menor do FPM</li>
+    <li>FUNDEB e FUNDEF</li>
+    <li>IRRF</li>
+    <li>SUS Municipal</li>
+    <li>COMPREV</li>
+  </ul>
+</section>
+
+<section id="faq" class="faq">´´
+  <h2>Perguntas Frequentes</h2>
+
+  <div class="faq-item">
+    <h3>O serviço é legal e seguro?</h3>
+    <p>
+      Sim. Todo o trabalho é realizado com base na legislação tributária vigente,
+      por meio de processos administrativos regulares, respeitando os órgãos de controle
+      e os princípios constitucionais da Administração Pública.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h3>O Município precisa entrar com ação judicial?</h3>
+    <p>
+      Não. A atuação da Antonio Carlos Castro Sociedade de Advogados ocorre
+      exclusivamente na esfera administrativa, evitando judicialização
+      e reduzindo riscos para o gestor público.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Qual o prazo de recuperação dos valores?</h3>
+    <p>
+      Os créditos recuperáveis abrangem, em regra, os últimos 60 meses,
+      respeitando o prazo prescricional quinquenal previsto na legislação tributária.
+    </p>
+  </div>
+
+  <div class="faq-item">
+    <h3>O serviço gera custo inicial para o Município?</h3>
+    <p>
+      O modelo de contratação é estruturado de forma estratégica,
+      permitindo ao Município ampliar sua arrecadação
+      sem comprometer o equilíbrio orçamentário.
+    </p>
+</div>
+</section>
+
+<section id="diferenciais">
+  <h2>Por Que Contratar a Antonio Carlos Castro Sociedade de Advogados</h2>
+  <p>
+    A <strong>Antonio Carlos Castro Sociedade de Advogados</strong> é especializada em Direito Tributário,
+    Nosso escritório, composto por mestres de notório saber em direito tributário, oferece serviços especializados de recuperação tributária para prefeituras,
+    com atuação nos Tribunais Superiores, alinhados ao entendimento de que foi acrescido o requisito da demonstração da notória especialização e da natureza intelectual do trabalho, conforme reforçado pelo artigo 3º-A do Estatuto da Advocacia (Lei nº 14.039/2020), permitindo a contratação direta e garantindo eficiência, segurança jurídica e maximização de recursos públicos.
+
+  </p>
+  <p>
+    A contratação do escritório representa acesso a expertise especializada,
+    metodologia consolidada e compromisso com resultados concretos,
+    fortalecendo a saúde financeira municipal e a capacidade de investimento público.
+  </p>
+</section>
+
+<section class="cta" id="contato">
+  <h2>Contrate um Escritório Especializado</h2>
+  <p>
+    Entre em contato com a <strong>Antonio Carlos Castro Sociedade de Advogados</strong>
+    e descubra como o serviço de Recuperação Tributária
+    pode gerar impacto financeiro positivo e sustentável para o seu Município.
+  </p>
+</section>
+
+<footer>
+  © 2025 • Antonio Carlos Castro Sociedade de Advogados • Todos os direitos reservados
+</footer>
+
+<script>
+function toggleMenu(){
+  const menu=document.getElementById("menu");
+  menu.style.right = menu.style.right === "0px" ? "-340px" : "0px";
+}
+</script>
+
+</body>
+</html>
